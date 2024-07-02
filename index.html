@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <!-- Main Section -->
+    <main class="main-container" >
+
+        <!-- Navigation -->
+        <section class="nav-container" id="#">
+            <a href="#" class="logo" data-testid="slackDisplayName">Onose</a>
+
+            <ul class="nav-menu show">
+                <li ><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#contact" class="nav-link ">Contact</a></li>
+            </ul>
+
+            <div class="icon-container">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </section>
+
+        <!-- Hero Section -->
+        <section class="hero-container">
+            <div class="hero-body">
+                <div class="hero-heading">
+                    <img src="./assets/ose.png" data-testid="slackProfilePicture" alt="">
+                    <p class="hero-name">
+                        I'm <span data-testid="slackDisplayName">Onose</span>
+                    </p>
+                </div>
+
+                <div class="hero-about">
+                    Hi, I am a front-end developer with experience of building web applications
+                </div>
+            </div>
+            <div class="time-container">
+                <h1 id="current-time" data-testid="currentTimeUTC">12:00:00</h1>
+                <h3 id="current-day" data-testid="currentDay"></h3>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about-container" id="about">
+            <div class="about-header">
+                <h3 class="intro-text">Introduction</h3>
+                <h1 class="over-text">Overview</h1>
+            </div>
+
+            <div class="about-body">
+                <p class="about-me">
+                    I'm a front-end developer with experience in TypeScript and JavaScript, and expertise in frameworks like React, Node.js, Express.js, and Three.js. 
+                    I'm a quick learner and collaborate closely with clients to create efficient, scalable, and user-friendly solutions that solve real-world problems. 
+                    Let's work together to bring your ideas to life!
+                </p>
+                <a href="./assets/Onose CV.pdf" download="resume.pdf" class="download">Download Resume</a>
+
+                <div class="goals-container">
+                    <h3 class="goals-heading">Goals</h3>
+                    
+                    <p class="goals-text">
+                        My plan for the next 2 years is to focus on enhancing my technical skills,
+                        practical experience, and community involvement, 
+                        leading to well-rounded growth in frontend development. 
+                        So I will be the top appicant anytime I am applying for a job
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+         <section class="contact-container" id="contact">
+            <div class="contact-header">
+                <h3 class="intro-text">Contact</h3>
+                <h1 class="over-text">Details</h1>
+            </div>
+
+            <div class="contact-body">
+                <div class="contact-details">
+                    <p class="contact-items" data-testid="slackEmail">
+                        <i class="fa-solid fa-envelope"></i> Email : ogbidionose@gmail.com
+                    </p>
+                    <p class="contact-items" data-testid="slackPhoneNumber">
+                        <i class="fa-solid fa-phone"></i> Phone Number : +234 907 173 8136
+                    </p>
+                </div>
+
+                <div class="contact-links">
+                    <h3 class="intro-text">Links</h3>
+                
+                    <a 
+                     href="https://github.com/Kored28" 
+                     target="_blank" 
+                     class="contact-link" 
+                     data-testid="github"
+                    >
+                        Github
+                    </a>
+
+                    <a 
+                     href="http://hng.tech/learn" 
+                     target="_blank" 
+                     class="contact-link" 
+                     data-testid="hngLink"
+                    >
+                        Learn in HNG
+                    </a>
+
+                    <a 
+                     href="http://keyword.dog/" 
+                     target="_blank" 
+                     class="contact-link" 
+                     data-testid="keywordLink"
+                    >
+                        Keyword
+                    </a>
+
+                    <a 
+                     href="https://github.com/Kored28" 
+                     target="_blank" 
+                     class="contact-link" 
+                     data-testid="scrapeanywebLink"
+                    >
+                        Scrape any website
+                    </a>
+                    
+
+                </div>
+            </div>
+        </section>
+
+        <div class="footer-container">
+            <p class="footer-text">
+                &copy;copyright right reserved, 2024
+            </p>
+        </div>
+
+    </main>
+    
+    <script src="/app.js"></script>
+    <script src="https://kit.fontawesome.com/fc149c31cb.js" crossorigin="anonymous"></script>
+</body>
+</html>
